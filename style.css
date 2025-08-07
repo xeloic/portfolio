@@ -1,0 +1,52 @@
+.d-block{
+    height: 25vh;
+    width: auto;
+    border-radius: 50%;
+}
+
+span{
+    color: rgb(214, 218, 220);
+
+}
+.lead{
+    font-size: 2.5vh;
+    font-weight: 400;
+
+}
+
+nav{
+    
+    position: sticky;
+    top: 0cm;
+}
+
+#skill {
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-template-rows: 1fr  1fr;
+    border: 10px;
+    
+}
+
+#skill img{
+   
+    height: 5vh;
+    width: auto;
+}
+#skill p{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 640px) {
+    #skill {
+        display: grid;
+        gap: 15px;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: 1fr  1fr 1fr 1fr ;
+        border: 10px;
+    }
+    
+  }
